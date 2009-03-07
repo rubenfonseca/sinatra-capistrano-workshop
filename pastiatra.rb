@@ -7,8 +7,8 @@ require 'rack/cache'
 require 'rack_futurama'
 
 use Rack::ETag
-# use Rack::Cache, :verbose => true,
-#                  :default_ttl => 60
+use Rack::Cache, :verbose => true,
+                 :default_ttl => 60
 use RackFuturama
 
 configure do
