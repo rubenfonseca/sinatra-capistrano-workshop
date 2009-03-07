@@ -1,0 +1,6 @@
+This code was written during the Sinatra and Capistrano Workshop at Lisbon, 06/03/2009.
+
+The code demonstrates the basic functionalities of the Sinatra web framework and implements a simple recipe to deploy under mod_passenger using Capistrano.
+
+* Sinatra - http://www.sinatrarb.com/
+* Capistrano - http://www.capify.org
